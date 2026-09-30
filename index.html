@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Payhip script: keep as the first element in <head> -->
+  <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Growvia Notes | Premium Digital Study Notes</title>
+  <meta name="description" content="Premium, structured digital notes designed to make exam preparation simpler, clearer, and more organized.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header" id="top">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Growvia home">
+      <!-- Logo: replace assets/logo.jpeg to change. This crops the G mark from your logo file. -->
+      <span class="mark" role="img" aria-label="Growvia logo mark"></span>
+      <span class="brand-name">Growvia</span>
+    </a>
+    <nav class="nav-links" id="nav-links" aria-label="Main">
+      <a href="#top">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-sm btn-primary nav-cta" href="#products">Browse Notes</a>
+    <button class="menu-btn" id="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<!-- ========== HERO ========== -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <h1>Study Smarter.<br>Revise Better.</h1>
+      <p class="lead">Premium, structured digital notes designed to make exam preparation simpler, clearer, and more organized.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#products">Explore Notes</a>
+        <a class="btn btn-ghost" href="#products">View Products</a>
+      </div>
+    </div>
+
+    <!-- Hero stack: use the same cover images as the product cards -->
+    <div class="hero-stack" aria-hidden="true">
+      <div class="cover c3"><div class="ph"><span>Your third<br>product</span></div><img src="assets/cover-3.jpg" alt="" onerror="this.remove()"></div>
+      <div class="cover c2"><div class="ph"><span>UPSC<br>Politics Notes</span></div><img src="assets/cover-2.jpg" alt="" onerror="this.remove()"></div>
+      <div class="cover c1"><div class="ph"><span>UPSC<br>Geography Notes</span></div><img src="assets/cover-1.jpg" alt="" onerror="this.remove()"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PRODUCTS ========== -->
+<section class="section" id="products">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Digital Notes</h2>
+      <p class="sub">Focused study material. Cleanly organized. Ready to revise.</p>
+    </div>
+
+    <!--
+      HOW TO EDIT A PRODUCT
+      1. Cover image: replace assets/cover-N.jpg (keep 3:4 portrait ratio)
+      2. Title, description, list, price: edit the text below
+      3. Payhip: replace YOUR_CODE in BOTH href="https://payhip.com/b/YOUR_CODE" and data-product="YOUR_CODE"
+         (the code is the last part of your Payhip link, e.g. https://payhip.com/b/j4TeM -> j4TeM)
+    -->
+    <div class="grid">
+
+      <!-- PRODUCT 1 -->
+      <article class="card">
+        <div class="cover"><div class="ph"><span>UPSC<br>Geography Notes</span></div><img src="assets/cover-1.jpg" alt="UPSC Geography Notes cover" onerror="this.remove()"></div>
+        <div class="card-body">
+          <span class="tag">UPSC · Geography</span>
+          <h3>UPSC Geography Notes</h3>
+          <p class="desc">Comprehensive Geography study material covering important concepts, Indian Geography, World Geography, physical geography and revision topics.</p>
+          <ul class="incl">
+            <li>Indian Geography</li>
+            <li>World Geography</li>
+            <li>Physical geography</li>
+            <li>Revision topics</li>
+            <li>Digital PDF</li>
+          </ul>
+          <div class="buy">
+            <div class="price">₹<span>000</span></div>
+            <a href="https://payhip.com/b/j4TeM" class="payhip-buy-button btn btn-primary" data-theme="none" data-product="j4TeM" target="_blank" rel="noopener">Buy Now</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- PRODUCT 2 -->
+      <article class="card">
+        <div class="cover"><div class="ph"><span>UPSC<br>Politics Notes</span></div><img src="assets/cover-2.jpg" alt="UPSC Politics Notes cover" onerror="this.remove()"></div>
+        <div class="card-body">
+          <span class="tag">UPSC · Politics</span>
+          <h3>UPSC Politics Notes</h3>
+          <p class="desc">Structured notes covering important political concepts, governance, political systems and contemporary political topics.</p>
+          <ul class="incl">
+            <li>Political concepts</li>
+            <li>Governance</li>
+            <li>Political systems</li>
+            <li>Contemporary topics</li>
+            <li>Digital PDF</li>
+          </ul>
+          <div class="buy">
+            <div class="price">₹<span>000</span></div>
+            <a href="https://payhip.com/b/PAYHIP_PRODUCT_2_URL" class="payhip-buy-button btn btn-primary" data-theme="none" data-product="PAYHIP_PRODUCT_2_URL" target="_blank" rel="noopener">Buy Now</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- PRODUCT 3 (edit everything in [BRACKETS]) -->
+      <article class="card">
+        <div class="cover"><div class="ph"><span>[INSERT THIRD<br>PRODUCT NAME]</span></div><img src="assets/cover-3.jpg" alt="[INSERT THIRD PRODUCT NAME] cover" onerror="this.remove()"></div>
+        <div class="card-body">
+          <span class="tag">[CATEGORY]</span>
+          <h3>[INSERT THIRD PRODUCT NAME]</h3>
+          <p class="desc">[INSERT PRODUCT DESCRIPTION]</p>
+          <ul class="incl">
+            <li>[Included item]</li>
+            <li>[Included item]</li>
+            <li>[Included item]</li>
+            <li>Digital PDF</li>
+          </ul>
+          <div class="buy">
+            <div class="price">₹<span>000</span></div>
+            <a href="https://payhip.com/b/PAYHIP_PRODUCT_3_URL" class="payhip-buy-button btn btn-primary" data-theme="none" data-product="PAYHIP_PRODUCT_3_URL" target="_blank" rel="noopener">Buy Now</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== WHY ========== -->
+<section class="section why">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Why These Notes?</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h13"/></svg>
+        <h3>Structured</h3>
+        <p>Organized topics designed for easier studying.</p>
+      </div>
+      <div class="why-item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.3-5.7M20 4v5h-5"/></svg>
+        <h3>Revision-Friendly</h3>
+        <p>Concise presentation helps you review important concepts efficiently.</p>
+      </div>
+      <div class="why-item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2"/><path d="M11 18.5h2"/></svg>
+        <h3>Digital</h3>
+        <p>Access your notes conveniently from your devices.</p>
+      </div>
+      <div class="why-item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+        <h3>Focused</h3>
+        <p>Study material designed around relevant exam topics.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section class="section about" id="about">
+  <div class="wrap about-grid">
+    <h2>Built for Focused Preparation.</h2>
+    <p class="serif">We create clean, structured digital study resources designed to make exam preparation more organized and accessible.</p>
+  </div>
+</section>
+
+<!-- ========== FAQ ========== -->
+<section class="section" id="faq">
+  <div class="wrap faq-wrap">
+    <div class="section-head"><h2>FAQ</h2></div>
+    <div class="faq">
+      <details>
+        <summary>How will I receive the notes?</summary>
+        <p>After purchasing through Payhip, customers will receive access according to the delivery options configured on the Payhip product page.</p>
+      </details>
+      <details>
+        <summary>What format are the notes?</summary>
+        <p>The products are provided digitally, primarily as PDF study material.</p>
+      </details>
+      <details>
+        <summary>Can I access them on my phone?</summary>
+        <p>Yes. Digital notes can be viewed on supported phones, tablets, and computers.</p>
+      </details>
+      <details>
+        <summary>Are these official UPSC materials?</summary>
+        <p>No. These are independently created study resources and are not affiliated with or endorsed by UPSC.</p>
+      </details>
+      <details>
+        <summary>How do I purchase?</summary>
+        <p>Choose a product and click <strong>Buy Now</strong>. You will be redirected to its Payhip purchase page.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FINAL CTA ========== -->
+<section class="final">
+  <div class="wrap">
+    <h2>Ready to make your revision simpler?</h2>
+    <p class="serif">Explore the notes and find the study material that fits your preparation.</p>
+    <a class="btn btn-primary" href="#products">Explore All Notes</a>
+  </div>
+</section>
+</main>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a class="brand" href="#top" aria-label="Growvia home">
+        <span class="mark" role="img" aria-label="Growvia logo mark"></span>
+        <span class="brand-name">Growvia</span>
+      </a>
+      <p>Clean, structured digital study resources for focused exam preparation.</p>
+    </div>
+    <nav class="foot-links" aria-label="Footer">
+      <a href="#products">Products</a>
+      <a href="#faq">FAQ</a>
+      <a href="mailto:YOUR_EMAIL@example.com">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms &amp; Conditions</a>
+    </nav>
+  </div>
+  <div class="wrap copy">© 2026 Growvia. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
